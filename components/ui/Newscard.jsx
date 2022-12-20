@@ -2,7 +2,7 @@ import Image from "next/image"
 export default function Newscard({pic,title, subtitle,date, paragraph,minutes}){
   return (
     <div>
-      <Image src={`/images/${pic}`} width={400} height={400} alt="woman"/>
+      <Image src={`/Images/${pic}`} width={400} height={400} alt="woman" />
       <div className="space-y-4 text-black">
         <h2 className=" font-bold text text-bs">{subtitle}</h2>
         <h1 className=" font-bold text text-xl">{title}</h1>
