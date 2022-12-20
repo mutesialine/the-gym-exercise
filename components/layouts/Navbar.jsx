@@ -20,6 +20,7 @@ export default function Navbar() {
               className="invert"
               width={33}
               height={33}
+              alt="menu"
             />
             <div className="flex gap-2">
               <Image
@@ -27,6 +28,7 @@ export default function Navbar() {
                 className="invert"
                 width={80}
                 height={41}
+                alt="logo"
               />
               <div className="text-white text-xs ">
                 <p>Techinical</p>
@@ -56,6 +58,7 @@ export default function Navbar() {
                 className="invert"
                 width={20}
                 height={20}
+                alt="search"
               />
             </div>
           </div>
